@@ -2,4 +2,9 @@ body{
 
   background-color: aqua;
   text-align: center;
+
+}
+head{
+  color: aquamarine;
+  size: 33px;
 }
