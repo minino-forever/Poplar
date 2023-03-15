@@ -1,0 +1,72 @@
+/*так как вся верстка состоит 
+в основном из прямоугольников. Имея параметры высота, ширина, толщина , рамки и они все выщитываюся(калькулируются), и отступы разные могут быть, падинги- это внутренний отступ, марджины - это внешниии отступы, и все это вместе сумируется - сладывается(что то может и отнять) и это все и есть размер страницы --И все это подчиняется box-sizing: content-box(по старой версии) теперь же используют модель в основном box-sizing: border-box;*/
+html{
+  box-sizing: border-box;
+  
+
+}
+*, *::after, *::before{
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.wrapper {
+  
+}
+.header {
+  background-color: #133249;
+}
+.container{
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 10px;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 28px;
+}
+.header__inner{
+padding-top: 63px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo {}
+
+.logo__img {}
+
+.menu {
+  
+}
+
+.menu__list {
+  display: flex;
+  gap: 36px;
+}
+
+.menu__list-item {}
+
+.menu__list-link {
+  color: #fff;
+  
+}
+
+.menu__btn {
+ 
+}
+
+.menu__btn-img {
+
+ 
+}

@@ -5,43 +5,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Poplar</title>
-  <link rel="stylesheet" href="css/reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header class="header">
+  <div class="wrapper">
+    <header class="header">
   <div class="container">
-    <nav class="nav">
-      <a href="#" class="logo">
-        <img src="images/logo.svg" alt="Lgog" class="logo-img">
-      </a>
-      <ul class="menu-list">
-        <li class="menu-item">
-          <a href="#" class="menu-link">
+    <div class="header__inner">
+        <a href="#" class="logo">
+        <img src="images/logo.svg" alt="Logo" class="logo__img">
+        </a>
+
+    <nav class="menu">
+      
+      <ul class="menu__list">
+        <li class="menu__list-item">
+          <a class="menu__list-link" href="#">
 Home
           </a></li>
-        <li class="menu-item">
-          <a href="#" class="menu-link">
+        <li class="menu__list-item">
+          <a class="menu__list-link" href="#">
 About
           </a></li>
-        <li class="menu-item">
-          <a href="#" class="menu-link">
+        <li class="menu__list-item">
+          <a class="menu__list-link" href="#">
 Product
           </a></li>
-        <li class="menu-item">
-          <a href="#" class="menu-link">
+        <li class="menu__list-item">
+          <a class="menu__list-link" href="#">
 Solutions
           </a></li>
-        <li class="menu-item">
-          <a href="#" class="menu-link">
+        <li class="menu__list-item">
+          <a class="menu__list-link" href="#">
 Pricing
           </a></li>
       </ul>
-      <a href="#" class="menu-btn"><img src="images/btn-menu.svg" alt="btn" class="menu-btn__img"></a>
-    </nav>
+      </nav>
+      <a href="#" class="menu__btn"><img src="images/btn-menu.svg" alt="btn" class="menu__btn-img"></a>
+    
+
   </div>
-</header>
-<main class="main">
+ </div>
+</header> 
+</div>
+<!-- <main class="main">
   <div class="container">
     <h1 class="title">Inflation-proof the
     cash in 
@@ -72,7 +84,7 @@ Bank-grade security
       </ul>
     </nav>
   </div>
-</main>
+</main> -->
 
   <script src="js/main.js"></script>
 </body>
