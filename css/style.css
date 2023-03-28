@@ -1,7 +1,5 @@
 html {
   box-sizing: border-box;
-
-
 }
 
 *,
@@ -22,7 +20,6 @@ body {
 
 ul {
   list-style: none;
-
 }
 
 a {
@@ -53,7 +50,6 @@ a {
   gap: 36px;
 }
 
-
 .menu-link {
   color: #fff;
   text-transform: capitalize;
@@ -69,9 +65,8 @@ a {
 .title,
 .title-span,
 .subtitle {
-
   font-style: normal;
-  line-height: 1.5;
+  line-height: 1.2;
   color: #FFFFFF;
   text-align: center;
   margin: 0;
@@ -85,7 +80,6 @@ a {
   font-weight: 400;
   font-size: 58px;
   text-transform: capitalize;
-
 }
 
 .title-span {
@@ -94,7 +88,7 @@ a {
 
 .subtitle {
   font-family: 'Montserrat',
-    sans-serif;
+  sans-serif;
   font-weight: 500;
   font-size: 18px;
 }
@@ -109,7 +103,6 @@ a {
   font-weight: 600;
   font-size: 16px;
   text-transform: uppercase;
-
   color: #FFFFFF;
 }
 
@@ -120,7 +113,6 @@ a {
 .footer__list {
   display: flex;
   justify-content: space-around;
-
 }
 
 .fotter__item {
@@ -139,7 +131,6 @@ a {
   text-align: center;
 }
 
-
 .money-grafic {
   margin-top: -350px;
 }
@@ -151,7 +142,6 @@ a {
   padding: 130px 0 130px;
 }
 
-
 .money-img {
   padding-bottom: 60px;
 }
@@ -159,10 +149,9 @@ a {
 .money-title,
 .money__title-span {
   font-size: 45px;
-  line-height: 56px;
+  line-height: 1.2;
   color: #123149;
 }
-
 
 .money-subtitle {
   padding-top: 25px;
@@ -170,7 +159,6 @@ a {
   font-weight: 500;
   font-size: 18px;
   line-height: 1.5;
-
   color: #2B475B;
 }
 
@@ -185,7 +173,7 @@ a {
 }
 
 .investmen__item {
-  display: flex;
+  display: inherit;
   align-items: center;
   width: 570px;
   height: 280px;
@@ -204,8 +192,7 @@ a {
 .invest-span_none,
 .invest-span_ok {
   font-size: 30px;
-  line-height: 38px;
-  text-transform: capitalize;
+  line-height: 1.2;
   color: #133249;
 }
 
