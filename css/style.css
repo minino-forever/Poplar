@@ -38,6 +38,7 @@ a {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 10px;
+  text-align: center;
 }
 
 .header__inner {
@@ -78,7 +79,7 @@ a {
 
 .title,
 .title-span {
-  max-width: 625px;
+  max-width: 630px;
   display: inline-block;
   font-family: 'Arbutus Slab', sans-serif;
   font-weight: 400;
@@ -99,8 +100,8 @@ a {
 }
 
 .main__button {
- margin-top: 40px;
-font-family: 'Montserrat', sans-serif;
+  margin-top: 40px;
+  font-family: 'Montserrat', sans-serif;
   background-color: #0ECB78;
   border: none;
   padding: 30px 55px;
@@ -113,7 +114,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .footer {
-  padding:93px 0 397px ;
+  padding: 93px 0 397px;
 }
 
 .footer__list {
@@ -134,4 +135,84 @@ font-family: 'Montserrat', sans-serif;
   color: #FFFFFF;
 }
 
+.money {
+  text-align: center;
+}
 
+
+.money-grafic {
+  margin-top: -350px;
+}
+
+.money__content {
+  display: inline-block;
+  max-width: 600px;
+  text-align: center;
+  padding: 130px 0 130px;
+}
+
+
+.money-img {
+  padding-bottom: 60px;
+}
+
+.money-title,
+.money__title-span {
+  font-size: 45px;
+  line-height: 56px;
+  color: #123149;
+}
+
+
+.money-subtitle {
+  padding-top: 25px;
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+
+  color: #2B475B;
+}
+
+.investmen {
+  background-color: #123149;
+}
+
+.invest__content {
+  display: flex;
+  justify-content: space-around;
+  padding: 130px 0 130px;
+}
+
+.investmen__item {
+  display: flex;
+  align-items: center;
+  width: 570px;
+  height: 280px;
+  border-radius: 50px;
+  border: none;
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+}
+
+.investmen-img {
+  padding: 60px;
+}
+
+.investmen-text,
+.invest-span_none,
+.invest-span_ok {
+  font-size: 30px;
+  line-height: 38px;
+  text-transform: capitalize;
+  color: #133249;
+}
+
+.invest-span_none {
+  color: #E52A57;
+}
+
+.invest-span_ok {
+  color: #0DA864;
+}
