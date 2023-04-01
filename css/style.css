@@ -1,19 +1,23 @@
-
-html{
+html {
   box-sizing: border-box;
-  
+
 
 }
-*, *::after, *::before{
+
+*,
+*::after,
+*::before {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
 }
-ul{
+
+ul {
   list-style: none;
 
 }
-a{
+
+a {
   text-decoration: none;
   color: inherit;
 }
@@ -21,31 +25,32 @@ a{
 .header {
   background-color: #133249;
 }
-.container{
-max-width: 1200px;
-margin: 0 auto;
-padding: 0 10px;
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
-body{
+
+body {
   font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    font-style: normal;
-    line-height: 28px;
+  font-weight: 500;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 28px;
 }
-.header__inner{
-padding-top: 63px;
-display: flex;
-justify-content: space-between;
-align-items: center;
+
+.header__inner {
+  padding-top: 63px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 
 .logo__img {}
 
-.menu {
-  
-}
+.menu {}
 
 .menu__list {
   display: flex;
@@ -56,43 +61,40 @@ align-items: center;
 
 .menu__list-link {
   color: #fff;
-  
+
 }
 
-.menu__btn {
- 
-}
+.menu__btn {}
 
-.menu__btn-img {
+.menu__btn-img {}
 
- 
-}
-.main{
+.main {
   align-items: center;
   text-align: center;
 }
-.title{
-    max-width: 628px;
-    font-family: 'Arbutus Slab';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 58px;
-    line-height: 50px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #FFFFFF;
-}
-.subtitle{
-    max-width: 628px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 15px;
-    color: #FFFFFF;
+
+.title {
+  max-width: 628px;
+  font-family: 'Arbutus Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
 }
 
-.title span{
-    color: #0ECB78;
+.subtitle {
+  max-width: 628px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 15px;
+  color: #FFFFFF;
 }
 
+.title span {
+  color: #0ECB78;
+}
