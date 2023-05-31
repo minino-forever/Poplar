@@ -151,11 +151,11 @@ position: relative;
 .money-dots::before {
   content: "";
     position: absolute;
-    background-image: url("images/money-packnen.svg");
+    background-image: url("../images/money-packnen.svg");
     background-repeat: no-repeat;
     background-position: center center;
-    cursor: pointer;
-    z-index: 2;
+ 
+    
 }
 .money-title,
 .money__title--green {
