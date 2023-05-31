@@ -62,6 +62,21 @@ a {
   padding-top: 134px;
 }
 
+.btn--green {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #0ECB78;
+  border: none;
+  padding: 16px 30px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 70px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
 .title,
 .title--green,
 .desctitle {
@@ -94,24 +109,6 @@ a {
   margin-bottom: 40px;
 }
 
-.main__link {
-  font-family: 'Montserrat', sans-serif;
-  
-  background-color: #0ECB78;
-  border: none;
-  width: 260px;
-  height: 60px;
-  padding: 16px 30px;
-  text-align: center;
-  font-style: normal;
-  border-radius: 70px;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 28px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-}
-
 .footer {
   padding: 93px 0 397px;
 }
@@ -132,7 +129,6 @@ a {
   line-height: 1.5;
   color: #FFFFFF;
 }
-
 .money {
   text-align: center;
 }
@@ -148,10 +144,19 @@ a {
   padding: 130px 0 130px;
 }
 
-.money-img {
+.money-dots {
   padding-bottom: 60px;
+position: relative;
 }
-
+.money-dots::before {
+  content: "";
+    position: absolute;
+    background-image: url("images/money-packnen.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    z-index: 2;
+}
 .money-title,
 .money__title--green {
   font-size: 45px;
